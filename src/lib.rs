@@ -2,6 +2,9 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
+mod site;
+mod tool;
+
 struct SiteConfig {
 
   port: u16,
